@@ -53,3 +53,4 @@ params:
     mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
 publishDir: "docs"
+canonifyurls: true
