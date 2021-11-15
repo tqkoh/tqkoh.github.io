@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
+copyright: © 2021 Copyright. tqk
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
@@ -12,13 +12,13 @@ description: Portfolio and personal blog of John Doe.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Docs
-  url: https://toha-guides.netlify.app/posts/
+- name: Library
+  url: https://tqk.blue/library
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Tqk
   type: website
-  description: Portfolio and personal blog of John Doe.
-  image: images/author/john.png
-  url: https://hugo-toha.github.io
+  description: Portfolio and personal blog of Tqk.
+  image: "images/author/tqkmisc.png"
+  url: https://tqk.blue
