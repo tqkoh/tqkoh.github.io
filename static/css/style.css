@@ -1,0 +1,9 @@
+.icon-atcoder:before {
+    content: "";
+    background-image: url("/images/icons/atcoder.svg");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    vertical-align: middle;
+}
