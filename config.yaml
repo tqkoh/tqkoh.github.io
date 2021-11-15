@@ -58,3 +58,5 @@ canonifyurls: true
 taxonomies:
   tag: "tags"
   category: "categories"
+
+custom_css: ["css/style.css"]

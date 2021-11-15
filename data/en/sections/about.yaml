@@ -27,6 +27,10 @@ socialLinks:
     icon: "fab fa-twitter"
     url: "https://twitter.com/tqkoh"
 
+  - name: AtCoder
+    icon: "fab icon-atcoder"
+    url: "https://atcoder.jp/users/Tqk"
+
 badges:
   - type: soft-skill-indicator
     name: AtCoder
