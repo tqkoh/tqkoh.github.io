@@ -6,9 +6,9 @@ greeting: "Hi, I am"
 image: "images/author/tqkmisc.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  twitter: "[@tqkoh](https://twitter.com/tqkoh)"
+  twitter: "@tqkoh"
 
 # some summary about what you do
 summary:
   - I want to create something
-  - I like to create something
+  - I like creating something
