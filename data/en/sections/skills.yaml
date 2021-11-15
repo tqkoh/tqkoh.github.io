@@ -16,5 +16,9 @@ skills:
     summary: "I know the basics of algorithms. I am in top 6% of [AtCoder](https://atcoder.jp/users/Tqk). I have qualified for major competitive programming competitions in Japan, such as ICPC, Japan Olympiad of Information, and PCK."
 
   - name: C++
-    logo: /images/sections/skills/c++.png
-    summary: "I know basic C/C++ programming. I used that for competitive programming, making games using [dxlib](https://dxlib.xsrv.jp/), making vst plugins using [juce](https://juce.com/), etc. (The vst plugins are used to add sound sources and effects to a DAW, a software program for creating songs and processing audio.)"
+    logo: /images/sections/skills/c++.svg
+    summary: "I know basic C/C++ programming. I used that for competitive programming, making games using [dxlib](https://dxlib.xsrv.jp/), making vst plugins using [juce](https://juce.com/), etc. (vst plugins are used to add sound sources and effects to a DAW, a software program for creating songs and processing audio.)"
+
+  - name: Python and other languages
+    logo: /images/sections/skills/python.svg
+    summary: "I have experience creating software using Python, Go, Javascript, (phina.js), C#, etc."

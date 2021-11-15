@@ -1,6 +1,6 @@
 # some information about you
 name: "Tqk"
-nickname: "Tqk"
+nickname: "Tqk."
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/tqkmisc.png"
@@ -10,5 +10,6 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I want to create something
-  - I like creating something
+  - I like creating software.
+  - I like creating music.
+  - I like creating something fun.

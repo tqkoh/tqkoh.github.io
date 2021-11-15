@@ -1,0 +1,17 @@
+# section information
+section:
+  name: Interests
+  id: interests
+  enable: true
+  weight: 25
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: Engineering
+    summary: ""
+
+  - name: Creating Music
