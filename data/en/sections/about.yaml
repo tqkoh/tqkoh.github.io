@@ -16,15 +16,15 @@ summary: "I am a student who is interested in creating something fun using compu
 
 socialLinks:
   - name: Email
-    icon: "fas fa-envelope"
+    icon: "link-black fas fa-envelope"
     url: "tqkcompro@gmail.com"
 
   - name: Github
-    icon: "fab fa-github"
+    icon: "link-black fab fa-github"
     url: "https://www.github.com/tqkoh"
 
   - name: Twitter
-    icon: "fab fa-twitter"
+    icon: "link-black fab fa-twitter"
     url: "https://twitter.com/tqkoh"
 
   - name: AtCoder
@@ -43,6 +43,6 @@ badges:
     color: yellow
 
   - type: soft-skill-indicator
-    name: HP
-    percentage: 75
+    name: Shinchoku
+    percentage: 20
     color: orange

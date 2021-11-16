@@ -2,7 +2,7 @@
 section:
   name: Interests
   id: interests
-  enable: true
+  enable: false
   weight: 25
   showOnNavbar: true
   # Can optionally hide the title in sections

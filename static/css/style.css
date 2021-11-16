@@ -1,4 +1,4 @@
-.icon-atcoder:before {
+.icon-atcoder:before{
     content: "";
     background-image: url("/images/icons/atcoder.svg");
     display: inline-block;
@@ -6,4 +6,8 @@
     height: 1em;
     background-size: contain;
     vertical-align: middle;
+}
+
+.link-black{
+	color: #3c4858;
 }
