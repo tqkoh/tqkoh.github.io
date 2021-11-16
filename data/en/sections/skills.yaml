@@ -13,7 +13,7 @@ section:
 skills:
   - name: Algorighms
     logo: /images/sections/skills/atcoder.svg
-    summary: "I know the basics of algorithms. I am in top 6% of [AtCoder](https://atcoder.jp/users/Tqk). I have qualified for major competitive programming competitions in Japan, such as ICPC, Japan Olympiad of Information, and PCK."
+    summary: "I know the basics of algorithms. I am in top 6% of [AtCoder](https://atcoder.jp/users/Tqk). I have qualified for major competitive programming competitions in Japan, such as ICPC, Japan Olympiad of Information, PCK, and SuperCon."
 
   - name: C++
     logo: /images/sections/skills/c++.svg
