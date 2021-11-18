@@ -12,7 +12,8 @@
 	color: #3c4858;
 }
 
-.scplayer {
+.sc-player {
 	position: sticky;
 	bottom: 0;
+	z-index: 1;
 }
