@@ -1,13 +1,18 @@
-.icon-atcoder:before{
-    content: "";
-    background-image: url("/images/icons/atcoder.svg");
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    background-size: contain;
-    vertical-align: middle;
+.icon-atcoder:before {
+	content: "";
+	background-image: url("/images/icons/atcoder.svg");
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background-size: contain;
+	vertical-align: middle;
 }
 
-.link-black{
+.link-black {
 	color: #3c4858;
+}
+
+.scplayer {
+	position: sticky;
+	bottom: 0;
 }
