@@ -1,12 +1,22 @@
-<script type="text/javascript" src="{{ " /js/jquery-3.4.1.min.js" | relURL }}"></script>
-<script type="text/javascript" src="{{ " /js/popper.min.js" | relURL }}"></script>
-<script type="text/javascript" src="{{ " /js/bootstrap.min.js" | relURL }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+	integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+	integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+	integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"
+	integrity="sha512-7G7ueVi8m7Ldo2APeWMCoGjs4EjXDhJ20DrPglDQqy8fnxsFQZeJNtuQlTT0xoBQJzWRFp4+ikyMdzDOcW36kQ=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script type="text/javascript" src="{{ " /js/navbar.js" | relURL }}"></script>
-<script type="text/javascript" src="{{ " /js/plyr.js" | relURL }}"></script>
-<script type="text/javascript" src="{{ " /js/main.js" | relURL }}"></script>
+<script type="text/javascript" src="{{ "/js/navbar.js" | relURL }}"></script>
+<script type="text/javascript" src="{{ "/js/plyr.js" | relURL }}"></script>
+<script type="text/javascript" src="{{ "/js/main.js" | relURL }}"></script>
+
 
 {{ with resources.Get "js/test.ts" }}
-  {{ $js := resources.Get . | js.Build }}
-  <script src="{{ $js.Permalink }}"></script>
+{{ $js := resources.Get . | js.Build }}
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}

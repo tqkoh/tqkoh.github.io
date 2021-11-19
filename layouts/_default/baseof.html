@@ -23,10 +23,10 @@
 </head>
 
 <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
-	<div>
+	<div class="content">
 		<div class="container-fluid bg-dimmed wrapper">
-			<!----- ADD NAVBAR --------------->
-			{{ block "navbar" . }} {{ end }}
+			<!----- ADD NAVBAR  {{ block "navbar" . }} {{ end }} --------------->
+			{{- partial "navigators/navbar.html" . -}}
 
 			<!----- ADD SIDEBAR --------------->
 			{{ block "sidebar" . }} {{ end }}

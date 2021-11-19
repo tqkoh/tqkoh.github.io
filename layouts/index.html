@@ -45,39 +45,41 @@
 	</head>
 	<body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 		<div>
+			<div
+				class="content">
+				<!--- NAVBAR ------------------------->
+				{{- partial "navigators/navbar.html" . -}}
 
-			<!--- NAVBAR ------------------------->
-			{{- partial "navigators/navbar.html" . -}}
+				<!--- ADD HOME SECTION ---------------->
+				{{- partial "sections/home.html" . -}}
 
-			<!--- ADD HOME SECTION ---------------->
-			{{- partial "sections/home.html" . -}}
+				<!--- ADD OPTIONAL SECTIONS ----------->
+				{{ $sections:= site.Data.sections }}
+				{{ if (index site.Data site.Language.Lang).sections }}
+					{{ $sections = (index site.Data site.Language.Lang).sections }}
+				{{ end }}
 
-			<!--- ADD OPTIONAL SECTIONS ----------->
-			{{ $sections:= site.Data.sections }}
-			{{ if (index site.Data site.Language.Lang).sections }}
-				{{ $sections = (index site.Data site.Language.Lang).sections }}
-			{{ end }}
-
-			{{ if $sections }}
-				{{ $background:= "bg-white"}}
-				{{ range sort $sections "section.weight" }}
-					{{ if .section.enable }}
-						<div class="container-fluid section-holder d-flex {{ $background }}">
-							{{ if .section.template }}
-								{{- partial .section.template . -}}
+				{{ if $sections }}
+					{{ $background:= "bg-white"}}
+					{{ range sort $sections "section.weight" }}
+						{{ if .section.enable }}
+							<div class="container-fluid section-holder d-flex {{ $background }}">
+								{{ if .section.template }}
+									{{- partial .section.template . -}}
+								{{ else }}
+									{{- partial (printf "sections/%s.html" (replace (lower .section.id) " " "-")) . -}}
+								{{ end }}
+							</div>
+							<!--- alter background color for next section --->
+							{{ if eq $background "bg-white" }}
+								{{ $background = "bg-dimmed" }}
 							{{ else }}
-								{{- partial (printf "sections/%s.html" (replace (lower .section.id) " " "-")) . -}}
-							{{ end }}
-						</div>
-						<!--- alter background color for next section --->
-						{{ if eq $background "bg-white" }}
-							{{ $background = "bg-dimmed" }}
-						{{ else }}
-							{{ $background = "bg-white" }}
-						{{end}}
+								{{ $background = "bg-white" }}
+							{{end}}
+						{{ end }}
 					{{ end }}
 				{{ end }}
-			{{ end }}
+			</div>
 
 			<!------- ADD SOUNDCLOUD PLAYER -------->
 			{{ partial "scplayer.html" .}}
