@@ -2,7 +2,7 @@ console.log('hello')
 
 $(function(){
     $.pjax({
-        area : '#content',
+        area : '#pjax-area',
         link : 'a:not([target])'
     });
 });

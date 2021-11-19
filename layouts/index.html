@@ -45,11 +45,10 @@
 	</head>
 	<body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 		<div>
+			<!--- NAVBAR ------------------------->
+			{{- partial "navigators/navbar.html" . -}}
 			<div
-				class="content">
-				<!--- NAVBAR ------------------------->
-				{{- partial "navigators/navbar.html" . -}}
-
+				class="pjax-area">
 				<!--- ADD HOME SECTION ---------------->
 				{{- partial "sections/home.html" . -}}
 

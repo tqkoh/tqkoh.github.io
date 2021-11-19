@@ -23,19 +23,20 @@
 </head>
 
 <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
-	<div class="content">
-		<div class="container-fluid bg-dimmed wrapper">
-			<!----- ADD NAVBAR  {{ block "navbar" . }} {{ end }} --------------->
-			{{- partial "navigators/navbar.html" . -}}
+	<div>
+		<!----- ADD NAVBAR  {{ block "navbar" . }} {{ end }} --------------->
+		{{- partial "navigators/navbar.html" . -}}
+		<div class="pjax-area">
+			<div class="container-fluid bg-dimmed wrapper">
+				<!----- ADD SIDEBAR --------------->
+				{{ block "sidebar" . }} {{ end }}
 
-			<!----- ADD SIDEBAR --------------->
-			{{ block "sidebar" . }} {{ end }}
+				<!----- ADD PAGE CONTENT --------->
+				{{ block "content" . }} {{ end }}
 
-			<!----- ADD PAGE CONTENT --------->
-			{{ block "content" . }} {{ end }}
-
-			<!----- ADD TABLE OF CONTENTS ----------->
-			{{ block "toc" . }} {{ end }}
+				<!----- ADD TABLE OF CONTENTS ----------->
+				{{ block "toc" . }} {{ end }}
+			</div>
 		</div>
 
 		<!------- ADD SOUNDCLOUD PLAYER -------->
