@@ -17,6 +17,6 @@
 
 
 {{ with resources.Get "js/test.ts" }}
-{{ $js := resources.Get . | js.Build }}
-<script src="{{ $js.Permalink }}"></script>
+  {{ $js := resources.Get . | js.Build }}
+  <script src="{{ $js.Permalink }}"></script>
 {{ end }}
