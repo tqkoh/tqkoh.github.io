@@ -26,17 +26,19 @@
 	<div>
 		<!----- ADD NAVBAR  {{ block "navbar" . }} {{ end }} --------------->
 		{{- partial "navigators/navbar.html" . -}}
-		<div id="pjax-area">
-			<div class="container-fluid bg-dimmed wrapper">
-				<!----- ADD SIDEBAR --------------->
-				{{ block "sidebar" . }} {{ end }}
-
-				<!----- ADD PAGE CONTENT --------->
-				{{ block "content" . }} {{ end }}
-
-				<!----- ADD TABLE OF CONTENTS ----------->
-				{{ block "toc" . }} {{ end }}
-			</div>
+		<div id="barba-wrapper">
+  		<div class="barba-container" data-barba-namespace="baseof">
+  			<div class="container-fluid bg-dimmed wrapper">
+  				<!----- ADD SIDEBAR --------------->
+  				{{ block "sidebar" . }} {{ end }}
+  
+  				<!----- ADD PAGE CONTENT --------->
+  				{{ block "content" . }} {{ end }}
+  
+  				<!----- ADD TABLE OF CONTENTS ----------->
+  				{{ block "toc" . }} {{ end }}
+  			</div>
+  		</div>
 		</div>
 
 		<!------- ADD SOUNDCLOUD PLAYER -------->
