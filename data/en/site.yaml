@@ -12,8 +12,10 @@ description: Portfolio and personal blog of John Doe.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
+- name: Sounds
+  url: https://tqk.blue/posts/sound/
 - name: Library
-  url: https://tqk.blue/library
+  url: https://tqk.blue/library/
 
 # Specify OpenGraph Headers
 openGraph:

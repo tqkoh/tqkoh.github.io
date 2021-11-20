@@ -51,6 +51,14 @@ params:
     provider: mailchimp
     # specify the target URL for the subscription form
     mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+  
+  music:
+    teiku:
+      title: 低空飛行
+      url: https://soundcloud.com/tqkoh/teiku-hiko-demo
+      summary: 
+      id: 991022425
+    
 
 publishDir: "docs"
 canonifyurls: true
