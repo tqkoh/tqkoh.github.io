@@ -24,8 +24,8 @@ projects:
     role: All
     timeline: September 2022
     repo: https://github.com/tqkoh/qkjudge
-    url: https://judge.tqk.blue/
-    summary: "競プロの問題を公開するサイト。サーバーは Rust, actix-web や sqlx 等ライブラリ, クライアントは TypeScript, React を使用。"
+    url: "https://judge.tqk.blue/"
+    summary: "[サイト](https://judge.tqk.blue/) 競プロの問題を公開するアプリ。サーバーは Rust, actix-web や sqlx 等ライブラリ, クライアントは TypeScript, React を使用。"
     tags: ["web"]
   # - name: Kubernetes
   #   logo: /images/sections/projects/kubernetes.png
