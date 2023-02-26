@@ -3,22 +3,22 @@ section:
   name: Education
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
-  enable: false
+  enable: true
   weight: 40
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
-  - name: Undergraduate
+  - name: 学部卒業予定
     icon: fa-university
-    timeframe: 2020-2024
+    timeframe: 2020-2025
     institution:
-      name: Tokyo Institute of Technology
-      url: "https://www.titech.ac.jp/english"
-  - name: High school graduation
+      name: 東京工業大学
+      url: "https://www.titech.ac.jp/"
+  - name: 中等教育学校卒業
     icon: fa-school
     timeframe: 2014-2020
     institution:
-      name: Sagamihara Secondary School
+      name: 神奈川県立相模原中等教育学校
       url: "https://www.pen-kanagawa.ed.jp/sagamihara-chuto-ss/"

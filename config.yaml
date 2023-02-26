@@ -1,11 +1,12 @@
 baseURL: https://tqk.blue
 
-languageCode: en-us
+# languageCode: en-us
 title: "Tqk"
 theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+# defaultContentLanguage: en
 languages:
   en:
     languageName: English

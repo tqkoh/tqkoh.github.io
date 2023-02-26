@@ -7,18 +7,20 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of John Doe.
+description: tqk のポートフォリオ
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
 - name: Library
   url: https://tqk.blue/library
+- name: QK Judge
+  url: https://judge.tqk.blue/
 
 # Specify OpenGraph Headers
 openGraph:
   title: Tqk
   type: website
-  description: Portfolio and personal blog of Tqk.
+  description: tqk のポートフォリオ.
   image: "images/author/tqkmisc.png"
   url: https://tqk.blue

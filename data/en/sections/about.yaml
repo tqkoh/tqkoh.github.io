@@ -9,10 +9,10 @@ section:
 designation: student
 
 company:
-  name: Tokyo Institute of Technology
-  url: "https://www.titech.ac.jp/english"
+  name: 東京工業大学
+  url: "https://www.titech.ac.jp/"
 
-summary: "I am a student who is interested in creating something fun using computers. I don't have much experience yet, so I want to learn by making various things having fun."
+summary: ""
 
 socialLinks:
   - name: Email
@@ -33,16 +33,16 @@ socialLinks:
 
 badges:
   - type: soft-skill-indicator
-    name: AtCoder
-    percentage: 95
+    name: 競プロ
+    percentage: 90
     color: blue
 
   - type: soft-skill-indicator
-    name: Sleepiness
-    percentage: 90
+    name: ゲーム
+    percentage: 60
     color: yellow
 
   - type: soft-skill-indicator
-    name: Shinchoku
+    name: web
     percentage: 20
     color: orange
