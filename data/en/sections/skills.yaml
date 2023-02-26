@@ -13,12 +13,14 @@ section:
 skills:
   - name: Algorighms
     logo: /images/sections/skills/atcoder.svg
-    summary: "I know the basics of algorithms. I am in top 6% of [AtCoder](https://atcoder.jp/users/Tqk). I have qualified for major competitive programming competitions in Japan, such as ICPC, Japan Olympiad of Information, PCK, and SuperCon."
+    # summary: "I know the basics of algorithms. I am in top 6% of [AtCoder](https://atcoder.jp/users/Tqk). I have qualified for major competitive programming competitions in Japan, such as ICPC, Japan Olympiad of Information, PCK, and SuperCon."
+    summary: "競技プログラミングを長く趣味にしていたことにより、アルゴリズムの基礎が身についています。私は [AtCoder](https://atcoder.jp/users/Tqk) で水色というランクに位置していて、上位 10% の成績を残しています。他にも日本情報オリンピックや SuperCon、パソコン甲子園、ICPC 等の大会で本選に進出しました。"
 
   - name: C++
     logo: /images/sections/skills/c++.svg
-    summary: "I know basic C/C++ programming. I used that for competitive programming, making games using [dxlib](https://dxlib.xsrv.jp/), making vst plugins using [juce](https://juce.com/), etc. (vst plugins are used to add sound sources and effects to a DAW, a software program for creating songs and processing audio.)"
+    # summary: "I know basic C/C++ programming. I used that for competitive programming, making games using [dxlib](https://dxlib.xsrv.jp/), making vst plugins using [juce](https://juce.com/), etc. (vst plugins are used to add sound sources and effects to a DAW, a software program for creating songs and processing audio.)"
+    summary: "競技プログラミングで C++ を使っています。また [dxlib](https://dxlib.xsrv.jp/) や [Siv3D](https://siv3d.github.io/ja-jp/) というライブラリを使ってゲームを開発したり、[juce](https://juce.com/) というライブラリを使って vst プラグイン(音声処理をするソフトウェア)を作成したりと、開発にも使います"
 
-  - name: Python and other languages
+  - name: other skills
     logo: /images/sections/skills/python.svg
-    summary: "I have experience creating software using Python, Go, Javascript, (phina.js), C#, etc."
+    summary: "かじった程度のものとして、python でツールを作ったり、web 開発を少しやったりした経験があります。バックエンドでは Go や Rust を、フロントでは Typescript, React 等を触ったことがあります。"
